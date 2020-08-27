@@ -1,4 +1,5 @@
 # Author:Piao Luo
+# 列表 增删改查 切片 深浅拷贝
 
 import copy
 
@@ -6,6 +7,7 @@ name0 = [1, 2]
 name1 = ["a", "b", "c", ["aa", "bb"]]
 
 # 增
+name0.append("abc")  # 尾部追加
 name0.insert(0, "3")
 name0.insert(0, 3)
 print("1", name0)
